@@ -33,12 +33,20 @@ start:
   mov dl, 20h
   int 21h
 
+  ; New Line
+  mov dl, 0Ah
+  int 21h
+
   ; Prints "L."
   mov dl, 4ch
   int 21h
   mov dl, 2eh
   int 21h
   mov dl, 20h
+  int 21h
+
+  ; New Line
+  mov dl, 0Ah
   int 21h
 
   ; Prints "Pamplona"
