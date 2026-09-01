@@ -34,7 +34,9 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   ; Prints "L."
@@ -45,8 +47,9 @@ start:
   mov dl, 20h
   int 21h
 
-  ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   ; Prints "Pamplona"
