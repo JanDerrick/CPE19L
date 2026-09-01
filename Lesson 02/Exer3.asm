@@ -1,10 +1,10 @@
 .model small
-.stack 100h
+.stack
 .code
 
 start:
   mov ah, 02h
-test
+  
   ; Prints "================="
   mov dl, 3dh
   int 21h
@@ -365,7 +365,7 @@ test
   int 21h
   mov dl, 3dh
   int 21h
-  mov dl, 3dh
+  mov dl, 3dh 
   int 21h
   mov dl, 3dh
   int 21h
@@ -381,7 +381,6 @@ test
   int 21h
   mov dl, 3dh
   int 21h
-
 
   mov ah, 4ch
   int 21h
