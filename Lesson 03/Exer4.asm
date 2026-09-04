@@ -10,7 +10,7 @@ start:
   mov dl, 41h   ; Display Letter A
   mov dh, dl    ; Store Letter A
 
-  display:
+  display_text:
     int 21h
     mov dl, bl  ; Display letter a
     int 21h
@@ -20,7 +20,7 @@ start:
 
     mov dl, dh
 
-    loop display
+    loop display_text
 
   mov ah, 4ch
   int 21h
