@@ -382,6 +382,11 @@ start:
   mov dl, 3dh
   int 21h
 
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
+  int 21h
+
   mov ah, 4ch
   int 21h
 
