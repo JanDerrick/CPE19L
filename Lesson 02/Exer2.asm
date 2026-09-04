@@ -74,7 +74,9 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   ; Prints "Birth Date:"
@@ -143,7 +145,9 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   ; Prints "e-mail address: "
@@ -218,7 +222,9 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   ; Prints "Address: "
@@ -330,7 +336,9 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   ; Prints "Province: "
@@ -374,8 +382,10 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
-  int 21h  
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
+  int 21h 
 
   ; Prints "Contact Number: "
   mov dl, 43h
@@ -441,8 +451,10 @@ start:
   int 21h
   
   ; New Line
-  mov dl, 0Ah
-  int 21h  
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
+  int 21h 
 
   ; Print "Guardian's Name: "
   mov dl, 47h
@@ -524,7 +536,9 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   ; Print "Occupation: "
@@ -570,7 +584,9 @@ start:
   int 21h
 
   ; New Line
-  mov dl, 0Ah
+  mov dl, 0ah
+  int 21h
+  mov dl, 0dh
   int 21h
 
   mov ah, 4ch
