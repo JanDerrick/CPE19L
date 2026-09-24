@@ -4,13 +4,13 @@
 
   h_border      DB '******************************************************', 13, 10, '$'
   space         DB '*                                                    *', 13, 10, '$'
-  full_name     DB '*     LOGO        ENGR. JAN DERRICK L. PAMPLONA      *', 13, 10, '$'
+  full_name     DB '*     <-_->       ENGR. JAN DERRICK L. PAMPLONA      *', 13, 10, '$'
   position      DB '*                       COMPUTER ENGINEER            *', 13, 10, '$'
-  company_name  DB '*  COMPANY NAME                                      *', 13, 10, '$'
-  office_no     DB '*                     OFFICE No.                     *', 13, 10, '$'
-  fax_no        DB '*                     FAX No.                        *', 13, 10, '$'
+  company_name  DB '*      NASA                                          *', 13, 10, '$'
+  office_no     DB '*                     OFFICE No.  67                 *', 13, 10, '$'
+  fax_no        DB '*                     FAX No.     33466              *', 13, 10, '$'
   company_web   DB '*  COMPANY WEBSITE                                   *', 13, 10, '$'
-  res_no        DB '*                     RES No.                        *', 13, 10, '$'
+  res_no        DB '*                     RES No.     12345              *', 13, 10, '$'
   mobile_no     DB '*                     +63 966 781 2018               *', 13, 10, '$'
   email_addr    DB '*                     pamplonajanderrick@gmail.com   *', 13, 10, '$'
 
